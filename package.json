@@ -1,0 +1,48 @@
+{
+  "name": "osm-tag-stats",
+  "version": "1.2.3",
+  "description": "Filter OSM features, find stats and export GeoJSON using OSM QA Tiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/mapbox/osm-tag-stats.git",
+  "dependencies": {
+    "csv-string": "^2.3.0",
+    "csv2geojson": "^5.0.0",
+    "csvjson": "^2.2.0",
+    "fast-csv": "^2.1.0",
+    "feature-filter": "2.1.0",
+    "fs": "0.0.2",
+    "geojson-stream-merge": "^2.0.0",
+    "jsontoxml": "0.0.11",
+    "mapbox-data-team": "^1.0.0",
+    "minimist": "^1.2.0",
+    "osm-tag-stats": "mapbox/osm-tag-stats#bbox",
+    "osmtogeojson": "^2.2.11",
+    "path": "^0.12.7",
+    "request": "^2.74.0",
+    "tile-reduce": "^3.1.1",
+    "turf-featurecollection": "^1.0.1",
+    "underscore": "^1.8.3"
+  },
+  "bin": {
+    "osm-tag-stats": "index.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/osm-tag-stats.git"
+  },
+  "keywords": [
+    "osm",
+    "tags",
+    "stats",
+    "osm-tag-stats"
+  ],
+  "author": "Mapbox",
+  "bugs": {
+    "url": "https://github.com/mapbox/osm-tag-stats/issues"
+  }
+}

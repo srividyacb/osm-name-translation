@@ -1,0 +1,6 @@
+[
+    "all",
+    ["has", "place"],
+    ["has", "name"],
+    ["!has", "name:kn"]
+]
