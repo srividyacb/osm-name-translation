@@ -2,7 +2,7 @@ import osmapi
 import sys
 import csv
 
-api = osmapi.OsmApi(username = u"srividya_c", password = u"sri26yogi")
+api = osmapi.OsmApi(username = u"username", password = u"****")
 api.ChangesetCreate({u"comment": u"adding kannada name tags"})
 
 with open('translate.csv', 'rb') as csvfile:
