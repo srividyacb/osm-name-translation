@@ -19,6 +19,3 @@ with open('translate.csv', 'rb') as csvfile:
         node["tag"]["name:kn"] = translation
         node = api.NodeUpdate(node)
 api.ChangesetClose()
-
-# print api.NodeGet(4326760989)
-# # api.ChangesetClose()
