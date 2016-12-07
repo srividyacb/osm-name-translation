@@ -6,16 +6,19 @@
 - Uses [osmapi](http://osmapi.metaodi.ch/) a python module to upload the changed `name:kn` tags to OPenStreetMap. (add user credentials in `upload.py` script)
 
 
-### Upload to OpenStreetMp from `csv`
+### Upload language tags to OpenStreetMp from `csv`
 
 **Arguments required**
 
-1. inputFile : Input `csv` file with translations
-2. inputLanguage : Language-code tag to which the translations are updated (example `name:kn`)
-3. logFile : A log file which logs all the activities
+1. `username` : [OpenStreetMap](https://www.openstreetmap.org/login?referer=%2F) username </br>
+(*Note: Create your test account in [OSM dev server](http://master.apis.dev.openstreetmap.org/login?referer=%2F) if you are testing. You need to create your custom data while testing*)
+2. `userPassword` : Your associated account password (****)
+3. `inputFile` : Input `csv` file with translations
+4. `inputLanguage` : Language-code tag to which the translations are updated (example `name:kn`)
+5. `logFile` : A log file which logs all the activities
 
 **How to execute**
 
 ```
-python upload.py <inputfile.csv> <languagecode> <outputLog>
+python upload.py <osm-username> <password> <inputfile.csv> <languagecode> <outputLog>
 ```

@@ -4,11 +4,13 @@ import sys
 import csv
 import json
 
-inputFile = sys.argv[1]
-inputLanguage = sys.argv[2]
-log = sys.argv[3]
+userName = sys.argv[1]
+userPassword = sys.argv[2]
+inputFile = sys.argv[3]
+inputLanguage = sys.argv[4]
+log = sys.argv[5]
 
-api = osmapi.OsmApi(api="api06.dev.openstreetmap.org", username = "stest", password = "yspasswdys")
+api = osmapi.OsmApi(api="api06.dev.openstreetmap.org", username = userName, password = userPassword)
 api.ChangesetCreate({u"comment": u"adding kn name tags"})
 
 def get_osm_type (osm_id, osm_type):
