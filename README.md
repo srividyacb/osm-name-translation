@@ -25,7 +25,7 @@ id,type,name:kn
 (*Note: Create your test account in [OSM dev server](http://master.apis.dev.openstreetmap.org/login?referer=%2F) if you are testing. You need to create your custom data while testing*)
 2. `userPassword` : Your associated account password (****)
 3. `inputFile` : Input `csv` file with translations
-4. `inputLanguage` : Language-code tag to which the translations are updated (example `name:kn`)
+4. `inputLanguage` : Language-code tag to which the translations are updated (example `kn`)
 5. `logFile` : A log file which logs all the activities
 
 **How to execute**
