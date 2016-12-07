@@ -1,5 +1,9 @@
 ## tilereduce-translation
 
+**Note**
+
+Scripted imports and automated edits should only be carried out by those with experience and understanding of the way the OpenStreetMap community. See the [Import/Guidelines](http://wiki.openstreetmap.org/wiki/Import/Guidelines) and [Automated Edits/Code of Conduct](http://wiki.openstreetmap.org/wiki/Automated_Edits/Code_of_Conduct) for more information.
+
 ### Localization of `name` tags using tilereduce
 - Uses tilereduce - [osm-tag-stats](https://github.com/mapbox/osm-tag-stats) to extract `name` tags which don't have `name:kn tags` (see `tags.json` file for filters).
 - Uses geojson output of tilereduce and converts to csv for easy translation.
@@ -8,6 +12,13 @@
 
 ### Upload language tags to OpenStreetMp from `csv`
 
+**Sample CSV**
+
+```
+id,type,name:kn
+4305340953,node,<your-translation>
+.....
+```
 **Arguments required**
 
 1. `username` : [OpenStreetMap](https://www.openstreetmap.org/login?referer=%2F) username </br>
