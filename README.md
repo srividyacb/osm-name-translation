@@ -10,7 +10,7 @@ Scripted imports and automated edits should only be carried out by those with ex
 - Uses [osmapi](http://osmapi.metaodi.ch/) a python module to upload the changed `name:kn` tags to OPenStreetMap. (add user credentials in `upload.py` script)
 
 
-### Upload language tags to OpenStreetMp from `csv`
+### Upload language tags to OpenStreetMap from `csv`
 
 **Sample CSV**
 
